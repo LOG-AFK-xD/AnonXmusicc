@@ -41,7 +41,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="❣ sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
+                text="💻 sᴜᴩᴩᴏʀᴛ", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
                 text="Mᴀɪɴᴛᴀɪɴᴇʀ 🧛", user_id=OWNER
@@ -49,7 +49,7 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
         ],
         [
             InlineKeyboardButton(
-                text="⚒️ sᴏᴜʀᴄᴇ 🛠️", url=f"t.me/Team_Bot_Update"
+                text="⚒️ sᴏᴜʀᴄᴇ 🛠️", url=f"https://youtube.com/@Harsh-shukla-xD"
             )
         ],
      ]
