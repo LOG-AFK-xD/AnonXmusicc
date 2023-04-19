@@ -60,8 +60,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             ),
         ],
         [
+           InlineKeyboardButton(
+                text="👨‍✈️ Sᴜᴘᴘᴏʀᴛ",
+                url=f"T.me/Team_Bot_Support",
+            ),
+            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs 👥", url=f"t.me/Team_Bot_Update"),
+        ],
+        [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ Cʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
